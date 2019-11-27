@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E2108A943A6404C370886C3 /* libPods-RFAlertDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6F988E2C6CD926D7508D94 /* libPods-RFAlertDemo.a */; };
+		420580F8221A938D00789011 /* CodeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 420580F3221A938D00789011 /* CodeLabel.m */; };
+		420580F9221A938D00789011 /* PayPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 420580F5221A938D00789011 /* PayPasswordView.m */; };
+		420580FA221A938D00789011 /* CodeTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 420580F6221A938D00789011 /* CodeTextField.m */; };
+		42CBFCFC22155208009925EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CBFCFB22155208009925EC /* AppDelegate.m */; };
+		42CBFCFF22155208009925EC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CBFCFE22155208009925EC /* ViewController.m */; };
+		42CBFD0222155208009925EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CBFD0022155208009925EC /* Main.storyboard */; };
+		42CBFD042215520A009925EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CBFD032215520A009925EC /* Assets.xcassets */; };
+		42CBFD072215520A009925EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CBFD052215520A009925EC /* LaunchScreen.storyboard */; };
+		42CBFD0A2215520A009925EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CBFD092215520A009925EC /* main.m */; };
+		42CBFD142215520A009925EC /* RFAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CBFD132215520A009925EC /* RFAlertDemoTests.m */; };
+		42CBFD1F2215520A009925EC /* RFAlertDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CBFD1E2215520A009925EC /* RFAlertDemoUITests.m */; };
+		42CBFD3522155289009925EC /* RFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CBFD3222155289009925EC /* RFAlertView.m */; };
+		42CBFD38221552D1009925EC /* UIColor+ColorHexadecimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CBFD37221552D1009925EC /* UIColor+ColorHexadecimal.m */; };
+		42CBFD3B22155B8E009925EC /* EditAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CBFD3A22155B8E009925EC /* EditAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42CBFD102215520A009925EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42CBFCEF22155208009925EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42CBFCF622155208009925EC;
+			remoteInfo = RFAlertDemo;
+		};
+		42CBFD1B2215520A009925EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42CBFCEF22155208009925EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42CBFCF622155208009925EC;
+			remoteInfo = RFAlertDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		420580F2221A938D00789011 /* CodeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeLabel.h; sourceTree = "<group>"; };
+		420580F3221A938D00789011 /* CodeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeLabel.m; sourceTree = "<group>"; };
+		420580F4221A938D00789011 /* CodeTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeTextField.h; sourceTree = "<group>"; };
+		420580F5221A938D00789011 /* PayPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPasswordView.m; sourceTree = "<group>"; };
+		420580F6221A938D00789011 /* CodeTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeTextField.m; sourceTree = "<group>"; };
+		420580F7221A938D00789011 /* PayPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPasswordView.h; sourceTree = "<group>"; };
+		42CBFCF722155208009925EC /* RFAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CBFCFA22155208009925EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42CBFCFB22155208009925EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42CBFCFD22155208009925EC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42CBFCFE22155208009925EC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		42CBFD0122155208009925EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42CBFD032215520A009925EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42CBFD062215520A009925EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42CBFD082215520A009925EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CBFD092215520A009925EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42CBFD0F2215520A009925EC /* RFAlertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFAlertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CBFD132215520A009925EC /* RFAlertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAlertDemoTests.m; sourceTree = "<group>"; };
+		42CBFD152215520A009925EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CBFD1A2215520A009925EC /* RFAlertDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFAlertDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CBFD1E2215520A009925EC /* RFAlertDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFAlertDemoUITests.m; sourceTree = "<group>"; };
+		42CBFD202215520A009925EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CBFD2F22155289009925EC /* RFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFAlertView.h; sourceTree = "<group>"; };
+		42CBFD3222155289009925EC /* RFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFAlertView.m; sourceTree = "<group>"; };
+		42CBFD36221552D1009925EC /* UIColor+ColorHexadecimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorHexadecimal.h"; sourceTree = "<group>"; };
+		42CBFD37221552D1009925EC /* UIColor+ColorHexadecimal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorHexadecimal.m"; sourceTree = "<group>"; };
+		42CBFD3922155B8E009925EC /* EditAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditAlertView.h; sourceTree = "<group>"; };
+		42CBFD3A22155B8E009925EC /* EditAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditAlertView.m; sourceTree = "<group>"; };
+		7035B361D0E2BBF7E74EFE7C /* Pods-RFAlertDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFAlertDemo.debug.xcconfig"; path = "Target Support Files/Pods-RFAlertDemo/Pods-RFAlertDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C2698C0AB01D9231E175FAB5 /* Pods-RFAlertDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RFAlertDemo.release.xcconfig"; path = "Target Support Files/Pods-RFAlertDemo/Pods-RFAlertDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EF6F988E2C6CD926D7508D94 /* libPods-RFAlertDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RFAlertDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42CBFCF422155208009925EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2108A943A6404C370886C3 /* libPods-RFAlertDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CBFD0C2215520A009925EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CBFD172215520A009925EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CBFCEE22155208009925EC = {
+			isa = PBXGroup;
+			children = (
+				42CBFCF922155208009925EC /* RFAlertDemo */,
+				42CBFD122215520A009925EC /* RFAlertDemoTests */,
+				42CBFD1D2215520A009925EC /* RFAlertDemoUITests */,
+				42CBFCF822155208009925EC /* Products */,
+				979E7821CEA25D351BBE055A /* Pods */,
+				51A10140A55B7CA37D9C8556 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42CBFCF822155208009925EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42CBFCF722155208009925EC /* RFAlertDemo.app */,
+				42CBFD0F2215520A009925EC /* RFAlertDemoTests.xctest */,
+				42CBFD1A2215520A009925EC /* RFAlertDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42CBFCF922155208009925EC /* RFAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				42CBFD2C22155289009925EC /* DialogView */,
+				42CBFCFA22155208009925EC /* AppDelegate.h */,
+				42CBFCFB22155208009925EC /* AppDelegate.m */,
+				42CBFCFD22155208009925EC /* ViewController.h */,
+				42CBFCFE22155208009925EC /* ViewController.m */,
+				42CBFD0022155208009925EC /* Main.storyboard */,
+				42CBFD36221552D1009925EC /* UIColor+ColorHexadecimal.h */,
+				42CBFD37221552D1009925EC /* UIColor+ColorHexadecimal.m */,
+				42CBFD032215520A009925EC /* Assets.xcassets */,
+				42CBFD052215520A009925EC /* LaunchScreen.storyboard */,
+				42CBFD082215520A009925EC /* Info.plist */,
+				42CBFD092215520A009925EC /* main.m */,
+			);
+			path = RFAlertDemo;
+			sourceTree = "<group>";
+		};
+		42CBFD122215520A009925EC /* RFAlertDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				42CBFD132215520A009925EC /* RFAlertDemoTests.m */,
+				42CBFD152215520A009925EC /* Info.plist */,
+			);
+			path = RFAlertDemoTests;
+			sourceTree = "<group>";
+		};
+		42CBFD1D2215520A009925EC /* RFAlertDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42CBFD1E2215520A009925EC /* RFAlertDemoUITests.m */,
+				42CBFD202215520A009925EC /* Info.plist */,
+			);
+			path = RFAlertDemoUITests;
+			sourceTree = "<group>";
+		};
+		42CBFD2C22155289009925EC /* DialogView */ = {
+			isa = PBXGroup;
+			children = (
+				420580F2221A938D00789011 /* CodeLabel.h */,
+				420580F3221A938D00789011 /* CodeLabel.m */,
+				420580F4221A938D00789011 /* CodeTextField.h */,
+				420580F6221A938D00789011 /* CodeTextField.m */,
+				420580F7221A938D00789011 /* PayPasswordView.h */,
+				420580F5221A938D00789011 /* PayPasswordView.m */,
+				42CBFD2F22155289009925EC /* RFAlertView.h */,
+				42CBFD3222155289009925EC /* RFAlertView.m */,
+				42CBFD3922155B8E009925EC /* EditAlertView.h */,
+				42CBFD3A22155B8E009925EC /* EditAlertView.m */,
+			);
+			path = DialogView;
+			sourceTree = "<group>";
+		};
+		51A10140A55B7CA37D9C8556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF6F988E2C6CD926D7508D94 /* libPods-RFAlertDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		979E7821CEA25D351BBE055A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7035B361D0E2BBF7E74EFE7C /* Pods-RFAlertDemo.debug.xcconfig */,
+				C2698C0AB01D9231E175FAB5 /* Pods-RFAlertDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42CBFCF622155208009925EC /* RFAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CBFD232215520A009925EC /* Build configuration list for PBXNativeTarget "RFAlertDemo" */;
+			buildPhases = (
+				D51A78EE60746C93462264AD /* [CP] Check Pods Manifest.lock */,
+				42CBFCF322155208009925EC /* Sources */,
+				42CBFCF422155208009925EC /* Frameworks */,
+				42CBFCF522155208009925EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RFAlertDemo;
+			productName = RFAlertDemo;
+			productReference = 42CBFCF722155208009925EC /* RFAlertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42CBFD0E2215520A009925EC /* RFAlertDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CBFD262215520A009925EC /* Build configuration list for PBXNativeTarget "RFAlertDemoTests" */;
+			buildPhases = (
+				42CBFD0B2215520A009925EC /* Sources */,
+				42CBFD0C2215520A009925EC /* Frameworks */,
+				42CBFD0D2215520A009925EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42CBFD112215520A009925EC /* PBXTargetDependency */,
+			);
+			name = RFAlertDemoTests;
+			productName = RFAlertDemoTests;
+			productReference = 42CBFD0F2215520A009925EC /* RFAlertDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42CBFD192215520A009925EC /* RFAlertDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CBFD292215520A009925EC /* Build configuration list for PBXNativeTarget "RFAlertDemoUITests" */;
+			buildPhases = (
+				42CBFD162215520A009925EC /* Sources */,
+				42CBFD172215520A009925EC /* Frameworks */,
+				42CBFD182215520A009925EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42CBFD1C2215520A009925EC /* PBXTargetDependency */,
+			);
+			name = RFAlertDemoUITests;
+			productName = RFAlertDemoUITests;
+			productReference = 42CBFD1A2215520A009925EC /* RFAlertDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42CBFCEF22155208009925EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "浅佳科技";
+				TargetAttributes = {
+					42CBFCF622155208009925EC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					42CBFD0E2215520A009925EC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 42CBFCF622155208009925EC;
+					};
+					42CBFD192215520A009925EC = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 42CBFCF622155208009925EC;
+					};
+				};
+			};
+			buildConfigurationList = 42CBFCF222155208009925EC /* Build configuration list for PBXProject "RFAlertDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42CBFCEE22155208009925EC;
+			productRefGroup = 42CBFCF822155208009925EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42CBFCF622155208009925EC /* RFAlertDemo */,
+				42CBFD0E2215520A009925EC /* RFAlertDemoTests */,
+				42CBFD192215520A009925EC /* RFAlertDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42CBFCF522155208009925EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CBFD072215520A009925EC /* LaunchScreen.storyboard in Resources */,
+				42CBFD042215520A009925EC /* Assets.xcassets in Resources */,
+				42CBFD0222155208009925EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CBFD0D2215520A009925EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CBFD182215520A009925EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D51A78EE60746C93462264AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RFAlertDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42CBFCF322155208009925EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CBFCFF22155208009925EC /* ViewController.m in Sources */,
+				42CBFD3522155289009925EC /* RFAlertView.m in Sources */,
+				42CBFD38221552D1009925EC /* UIColor+ColorHexadecimal.m in Sources */,
+				42CBFD3B22155B8E009925EC /* EditAlertView.m in Sources */,
+				420580F9221A938D00789011 /* PayPasswordView.m in Sources */,
+				42CBFD0A2215520A009925EC /* main.m in Sources */,
+				42CBFCFC22155208009925EC /* AppDelegate.m in Sources */,
+				420580F8221A938D00789011 /* CodeLabel.m in Sources */,
+				420580FA221A938D00789011 /* CodeTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CBFD0B2215520A009925EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CBFD142215520A009925EC /* RFAlertDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CBFD162215520A009925EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CBFD1F2215520A009925EC /* RFAlertDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42CBFD112215520A009925EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42CBFCF622155208009925EC /* RFAlertDemo */;
+			targetProxy = 42CBFD102215520A009925EC /* PBXContainerItemProxy */;
+		};
+		42CBFD1C2215520A009925EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42CBFCF622155208009925EC /* RFAlertDemo */;
+			targetProxy = 42CBFD1B2215520A009925EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42CBFD0022155208009925EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CBFD0122155208009925EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42CBFD052215520A009925EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CBFD062215520A009925EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42CBFD212215520A009925EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42CBFD222215520A009925EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42CBFD242215520A009925EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7035B361D0E2BBF7E74EFE7C /* Pods-RFAlertDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TYXNZD3UM;
+				INFOPLIST_FILE = RFAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prf.RFAlertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42CBFD252215520A009925EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2698C0AB01D9231E175FAB5 /* Pods-RFAlertDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TYXNZD3UM;
+				INFOPLIST_FILE = RFAlertDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prf.RFAlertDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42CBFD272215520A009925EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prf.RFAlertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFAlertDemo.app/RFAlertDemo";
+			};
+			name = Debug;
+		};
+		42CBFD282215520A009925EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFAlertDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prf.RFAlertDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RFAlertDemo.app/RFAlertDemo";
+			};
+			name = Release;
+		};
+		42CBFD2A2215520A009925EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFAlertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prf.RFAlertDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFAlertDemo;
+			};
+			name = Debug;
+		};
+		42CBFD2B2215520A009925EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RFAlertDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.prf.RFAlertDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RFAlertDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42CBFCF222155208009925EC /* Build configuration list for PBXProject "RFAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CBFD212215520A009925EC /* Debug */,
+				42CBFD222215520A009925EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CBFD232215520A009925EC /* Build configuration list for PBXNativeTarget "RFAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CBFD242215520A009925EC /* Debug */,
+				42CBFD252215520A009925EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CBFD262215520A009925EC /* Build configuration list for PBXNativeTarget "RFAlertDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CBFD272215520A009925EC /* Debug */,
+				42CBFD282215520A009925EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CBFD292215520A009925EC /* Build configuration list for PBXNativeTarget "RFAlertDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CBFD2A2215520A009925EC /* Debug */,
+				42CBFD2B2215520A009925EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42CBFCEF22155208009925EC /* Project object */;
+}

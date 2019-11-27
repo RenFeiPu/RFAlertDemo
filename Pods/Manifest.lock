@@ -1,0 +1,30 @@
+PODS:
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - "UIView+YRExtension (1.0.0)"
+
+DEPENDENCIES:
+  - Masonry
+  - ReactiveObjC
+  - SDWebImage
+  - "UIView+YRExtension"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - ReactiveObjC
+    - SDWebImage
+    - "UIView+YRExtension"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  "UIView+YRExtension": fcfae0ce97538d4aeab82fef5529957c334d3e4b
+
+PODFILE CHECKSUM: e1bc738ffe3e25be1be1aee496a5806877c13e81
+
+COCOAPODS: 1.6.0.beta.2

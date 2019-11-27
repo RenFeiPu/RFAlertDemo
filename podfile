@@ -1,0 +1,7 @@
+platform :ios,'11.3'
+target "RFAlertDemo"do
+pod 'ReactiveObjC'
+pod 'Masonry'
+pod 'UIView+YRExtension'
+pod 'SDWebImage'
+end

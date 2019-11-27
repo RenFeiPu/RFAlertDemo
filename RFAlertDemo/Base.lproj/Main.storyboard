@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykv-uL-5VB">
+                                <rect key="frame" x="100" y="100" width="175" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="MdP-lW-WZm"/>
+                                </constraints>
+                                <state key="normal" title="提示框"/>
+                                <connections>
+                                    <action selector="alertClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="D9f-Br-p1V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pr8-2U-WhN">
+                                <rect key="frame" x="100" y="220" width="175" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Rd9-Ev-hOA"/>
+                                </constraints>
+                                <state key="normal" title="弹框编辑"/>
+                                <connections>
+                                    <action selector="editAlertClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="svN-Fv-Pnr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJ2-al-z7Q">
+                                <rect key="frame" x="100" y="340" width="175" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ftc-PV-hrg"/>
+                                </constraints>
+                                <state key="normal" title="密码输入框"/>
+                                <connections>
+                                    <action selector="codeClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ecy-YZ-RPj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vJ2-al-z7Q" firstAttribute="top" secondItem="Pr8-2U-WhN" secondAttribute="bottom" constant="80" id="3jx-ss-ygi"/>
+                            <constraint firstItem="Pr8-2U-WhN" firstAttribute="top" secondItem="Ykv-uL-5VB" secondAttribute="bottom" constant="80" id="ASG-QM-g12"/>
+                            <constraint firstItem="Ykv-uL-5VB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="UOJ-aD-QgO"/>
+                            <constraint firstItem="Pr8-2U-WhN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Ukn-lI-OnY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ykv-uL-5VB" secondAttribute="trailing" constant="100" id="e1B-Wk-NJF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vJ2-al-z7Q" secondAttribute="trailing" constant="100" id="fP8-KI-23k"/>
+                            <constraint firstItem="vJ2-al-z7Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="kTV-7h-DRj"/>
+                            <constraint firstItem="Ykv-uL-5VB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="weQ-My-lZJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pr8-2U-WhN" secondAttribute="trailing" constant="100" id="z0m-Yk-PlN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
